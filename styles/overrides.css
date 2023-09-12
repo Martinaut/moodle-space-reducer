@@ -1,28 +1,28 @@
 .activity-item:not(.activityinline) {
-    border: none;
-    padding: 0.5rem;
-    /*background: none;*/
+    border: none !important;
+    padding: 0.5rem !important;
+    /*background: none !important;*/
 }
 
 .activity-item .automatic-completion-conditions {
-    flex-direction: row;
+    flex-direction: row !important;
 }
 
 .description .course-description-item:first-child {
-    margin-top: 0.25rem;
-    padding-top: 0.25rem;
+    margin-top: 0.25rem !important;
+    padding-top: 0.25rem !important;
 }
 
 .description .course-description-item:last-child {
-    padding-bottom: 0.25rem;
+    padding-bottom: 0.25rem !important;
 }
 
 .activityiconcontainer {
-    width: 30px;
-    height: 30px;
+    width: 30px !important;
+    height: 30px !important;
 }
 
 .activityiconcontainer .activityicon,
 .activityiconcontainer .icon {
-    width: 20px;
+    width: 20px !important;
 }

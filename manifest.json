@@ -13,13 +13,13 @@
   },
   "content_scripts": [
     {
+      "all_frames": true,
       "matches": [
         "*://*.moodle.jku.at/*"
       ],
       "css": [
         "styles/overrides.css"
-      ],
-      "js": []
+      ]
     }
   ],
   "browser_specific_settings": {
@@ -29,5 +29,4 @@
       "update_url": "https://martinaut.github.io/moodle-space-reducer/updates.json"
     }
   }
-
 }
