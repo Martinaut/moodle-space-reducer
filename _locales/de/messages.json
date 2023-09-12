@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Moodle - Kleinere Abstände",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Reduziert die Abstände der Einträge auf der Moodle-Kursseite, damit die Seite übersichtlicher wird.",
+    "description": "Description of the extension."
+  }
+}

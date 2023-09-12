@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "{03d9e28b-91bc-43f3-bb66-53b11f912c5c}": {
+      "updates": [
+        {
+          "version": "1.0",
+          "update_link": "https://martinaut.github.io/moodle-space-reducer/78e690d819ee44808687-1.0.xpi"
+        }
+      ]
+    }
+  }
+}

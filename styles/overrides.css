@@ -1,0 +1,28 @@
+.activity-item:not(.activityinline) {
+    border: none;
+    padding: 0.5rem;
+    /*background: none;*/
+}
+
+.activity-item .automatic-completion-conditions {
+    flex-direction: row;
+}
+
+.description .course-description-item:first-child {
+    margin-top: 0.25rem;
+    padding-top: 0.25rem;
+}
+
+.description .course-description-item:last-child {
+    padding-bottom: 0.25rem;
+}
+
+.activityiconcontainer {
+    width: 30px;
+    height: 30px;
+}
+
+.activityiconcontainer .activityicon,
+.activityiconcontainer .icon {
+    width: 20px;
+}

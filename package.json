@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "start:firefox": "web-ext run",
+    "build:firefox": "web-ext build --overwrite-dest --artifacts-dir=www",
+    "sign:firefox": "web-ext sign --api-key=$MOZ_USER --api-secret=$MOZ_KEY --channel=unlisted --artifacts-dir=www",
+    "lint": "web-ext lint"
+  },
+  "devDependencies": {
+    "web-ext": "^7.7.0"
+  },
+  "webExt": {
+    "ignoreFiles": [
+      "update.json",
+      "package.json",
+      "package-lock.json",
+      "LICENSE",
+      "README.md",
+      "secrets.txt",
+      "www"
+    ]
+  }
+}

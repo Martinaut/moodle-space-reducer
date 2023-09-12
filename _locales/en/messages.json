@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Moodle - Space Reducer",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Reduces the spacing of entries on the Moodle course page to make the page clearer.",
+    "description": "Description of the extension."
+  }
+}

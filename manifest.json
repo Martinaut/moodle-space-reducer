@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
+  "version": "1.0",
+  "author": "Martinaut",
+  "icons": {
+    "16": "icons/moodle-16.png",
+    "32": "icons/moodle-32.png",
+    "48": "icons/moodle-48.png",
+    "128": "icons/moodle-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.moodle.jku.at/*"
+      ],
+      "css": [
+        "styles/overrides.css"
+      ],
+      "js": []
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{03d9e28b-91bc-43f3-bb66-53b11f912c5c}",
+      "strict_min_version": "115.0",
+      "update_url": "https://martinaut.github.io/moodle-space-reducer/updates.json"
+    }
+  }
+
+}
